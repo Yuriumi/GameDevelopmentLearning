@@ -1,0 +1,2 @@
+全称(**Normalized Device Coordinates**)，一般来说裁剪完成后，会通过透视除法，将物体从裁剪空间 变换为标准化设备坐标NDC，透视除法是将裁剪空间中，顶点的4个分量都除以w分量，从裁剪空间转换到NDC。它是一个长宽高取值范围为[-1,1]的立方体，之所以要转到NDC，是为了方便我们后面进行视口变换把它映射到屏幕空间，不过Unity已经帮我们完成这些.闫令琪老师的 [GAMES101: 现代计算机图形学入门 (ucsb.edu)](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html)
+![透视剔除法](https://learning-cdn-public-prd.unitychina.cn/20220817/learn/images/396ed6ff-d252-48d8-b39b-b108e5bacd13_image.png.2000x0x1.webp)
